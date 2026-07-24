@@ -26,7 +26,7 @@ firebase emulators:start --import=./emulator-data --export-on-exit
 npm run dev
 ```
 
-Or combined (if `concurrently` is installed):
+Or combined in a single command (runs the emulators in the background, then Vite — requires a Unix-like shell):
 ```bash
 npm run dev:emulator
 ```
